@@ -1,23 +1,15 @@
 # Tarea Reproducibilidad
+##Miembros:
 
-## Tarea
-- Realizar un fork del repositorio: https://github.com/said3427/Tarea_Reproducibilidad_Tec a un repo local por equipo.
+-Rafael García Cadenas A01334363
 
-- Comentar el archivo Code.R (Recuerda que para comentar código en R se usa `#`).
+-Luis Juan Centurión A01650501
 
-- Agregar el o los paquetes faltantes para la reproducibilidad del código en el archivo install.R
+-Jesús Norberto Reyes Muñoz
 
-- Quitar las intrucciones de la tarea en el archivo README.md, agregar una breve descripción del código y gráficos que se generan.
+-Eduardo Ferrer MacGregor Ruiz A01651867
 
-- Realizar un pull request o mandar un mail con su repo a saidmunozmontero@tec.mx
+##Descripción
 
-## Rstudio
+El Script de R simplemente toma a Canadá, México y Estados Unidos y  comparan la esperanza de vida entre estos 3 paises. Siendo X los años donde se hizo el estudio y Y la correspondiente esperanza de Vida
 
-En la siguiente liga pueden verificar que todo funcione (deben cambiar el nombre de usuario de github `said3427` por el suyo)
-
-RStudio: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/said3427/Tarea_Reproducibilidad_Tec/master?urlpath=rstudio)
-
-## Dudas
-
-- saidmunozmontero@tec.mx
-- said3427@gmail.com
