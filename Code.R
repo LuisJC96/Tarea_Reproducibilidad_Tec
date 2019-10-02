@@ -24,6 +24,7 @@ gap_5060 <- gap_5060 %>%
 gap_5060_CA <- gap_5060 %>%
   filter(country == "Canada")
 #Colocar el axis de las x como el año donde se llevó el estudio y las "Y" como la correspondiente expectativa de vida
+#geom_line() permite realizar una linea entre cada punto de los valores en X(en este caso une el año de 1952 a 1953 y 1953 a 1954 y así correspondientemente)
 ggplot(data = gap_5060_CA, aes(x = year, y = lifeExp)) +
   geom_line()
 #Filtrar los datos para obtener solamente los correspondientes a Canadá, México y Estados UNidos
